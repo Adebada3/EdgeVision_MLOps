@@ -1,6 +1,6 @@
 # 🌿 EdgeVision — Classification de maladies des feuilles de tomate
 
-**Projet MLOps : entraînement, optimisation, évaluation et déploiement sur iPhone 16 Plus.**
+**Projet MLOps : entraînement, optimisation, évaluation et déploiement sur iPhone**
 
 EdgeVision reconnaît trois classes à partir d'une photo de feuille de tomate : **alternariose** (`Tomato___Early_blight`), **mildiou** (`Tomato___Late_blight`) et **feuille saine** (`Tomato___healthy`). Le modèle est un **MobileNetV3 Small** fine-tuné sur un sous-ensemble de PlantVillage.
 
