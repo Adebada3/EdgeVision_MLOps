@@ -1,0 +1,31 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+.ipynb_checkpoints/
+.pytest_cache/
+.env
+.env.*
+
+# Dataset et caches lourds
+data/
+*.xip
+*.zip
+
+# Modèles : conserver uniquement les artefacts ONNX nécessaires
+models/*
+!models/classes.json
+!models/model_fp32.onnx
+!models/model_int8_dynamic.onnx
+!models/model_int8_static.onnx
+
+# Artefacts navigateur (les deux modèles doivent être publiés)
+mobile_web/models/*
+!mobile_web/models/classes.json
+!mobile_web/models/model_fp32.onnx
+!mobile_web/models/model_int8_dynamic.onnx
+
+# Journaux, caches et fichiers temporaires
+*.log
+.cache/
